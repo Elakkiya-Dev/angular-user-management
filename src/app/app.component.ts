@@ -37,7 +37,6 @@ export class AppComponent implements OnInit{
     }
   }
   toggleUserSelection(userId: number){
-    debugger
     if(this.selectedUsers.includes(userId)){
       this.selectedUsers = this.selectedUsers.filter(id => id !== userId);
     }else{
